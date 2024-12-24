@@ -17,6 +17,7 @@ class BookstoreApplicationTests {
 	void contextLoads() {
 		logger.info("Test case executing...");
 		logger.info("Custome case executing...");
+		logger.info("buid states pipelines .............. ");
 		assertEquals(true, true);
 	}
 
