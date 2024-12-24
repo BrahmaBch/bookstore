@@ -1,0 +1,14 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"
+  server:
+    port: 9001
+
+git:
+  commit:
+    id: ${git.commit.id}
+    time: ${git.commit.time}
+    branch: ${git.commit.branch}
